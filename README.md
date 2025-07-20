@@ -27,13 +27,13 @@ The dataset contains **bank transactions** with fields such as:
 Most numerical features are **right-skewed**, requiring **log transformation** before modeling. We also observe that fraudulent transactions are rare and concentrated in specific transaction types.
 
 📊 **Amount by Fraud Status**
-![Amount by Fraud Status](images\distributionbytypeandstatus.png)
+![Amount by Fraud Status](images/distributionbytypeandstatus.png)
 
 📈 **Transaction Amount vs Origin Balance**
-![Old Balance vs Amount](images\oldbalanceamout.png)
+![Old Balance vs Amount](images/oldbalanceamout.png)
 
 📉 **Numerical Log-Scaled Distributions**
-![Numerical Distributions](images\numericaldistrbutions.png)
+![Numerical Distributions](images/numericaldistrbutions.png)
 
 ---
 
@@ -45,7 +45,7 @@ Some transaction types are **far more prone** to fraud than others:
 - DEBIT, CASH_IN, and PAYMENT show almost no fraud.
 
 📌 **Fraud Rate by Transaction Type**
-![Fraud Rate 2](images\fraudrate2.png)
+![Fraud Rate 2](images/fraudrate2.png)
 
 ---
 
@@ -101,7 +101,7 @@ Evaluated on:
 
 The model identified `orig_diff_log` as **the most influential feature** for predicting fraud:
 
-![Feature Importance](images\output.png)
+![Feature Importance](images/output.png)
 
 ---
 
