@@ -143,9 +143,9 @@ We evaluated models using:
 
 ## 📌 Notebooks
 
-- [`eda.ipynb`](detect-fraud/notebooks/eda.ipynb) – Exploratory Data Analysis
-- [`transform.ipynb`](detect-fraud/notebooks/transform.ipynb) – Data Cleaning and Feature Engineering
-- [`model_train.ipynb`](detect-fraud/notebooks/model_train.ipynb) – Model Training, Evaluation, and Tuning
+- [`eda.ipynb`](notebooks/eda.ipynb) – Exploratory Data Analysis
+- [`transform.ipynb`](notebooks/transform.ipynb) – Data Cleaning and Feature Engineering
+- [`model_train.ipynb`](notebooks/model_train.ipynb) – Model Training, Evaluation, and Tuning
 
 ---
 
